@@ -1,0 +1,8 @@
+[package]
+description = A proof-of-concept demonstrating scriptland parsing and event routing for all DNS extensions
+tags = dns, experimental, extensions, opt, edns
+script_dir = scripts
+test_command = cd testing && btest -c btest.cfg
+version = main
+depends =
+  zeek >=6.1.0
